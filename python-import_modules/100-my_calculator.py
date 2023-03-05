@@ -8,8 +8,9 @@ if __name__ == "__main__":
     first_number = int(float(first_number))
     second_number = int(float(second_number))
     operator = str(operator)
-    if len(sys.argv) < 4:
+    if len(sys.argv) != 4:
         print("Usage: ./100-my_calculator.py a operator b")
+        sys.exit(1)
     elif operator == "+":
         print("{} + {} = {}".format(first_number, second_number, add(first_number, second_number)))
     elif operator == "-":
@@ -20,3 +21,6 @@ if __name__ == "__main__":
         print("{} / {} = {}".format(first_number, second_number, div(first_number, second_number)))
     elif operator != "+" or "-" or "*" or "/":
         print("Unknown operator. Only: +, -, * and / available")
+    else:
+    print("Unknown operator. Available operators: +, -, * and /")
+    sys.exit(1)
