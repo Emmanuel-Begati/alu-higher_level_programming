@@ -22,5 +22,5 @@ if __name__ == "__main__":
     elif operator != "+" or "-" or "*" or "/":
         print("Unknown operator. Only: +, -, * and / available")
     else:
-    print("Unknown operator. Available operators: +, -, * and /")
-    sys.exit(1)
+        print("Unknown operator. Available operators: +, -, * and /")
+        sys.exit(1)
