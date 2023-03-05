@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 from calculator import add, sub, mul, div
-import sys
+from sys import argv
 if __name__ == "__main__":
     first_number =int(sys.argv[0])
     second_number = int(sys.argv[2])
