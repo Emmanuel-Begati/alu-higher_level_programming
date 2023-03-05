@@ -5,8 +5,8 @@ if __name__ == "__main__":
     first_number =sys.argv[0]
     second_number = sys.argv[2]
     operator = sys.argv[1]
-    first_number = int(first_number)
-    second_number = int(second_number)
+    first_number = int(float(first_number))
+    second_number = int(float(second_number))
     operator = str(operator)
     if first_number or second_number or operator == False:
         print("Usage: ./100-my_calculator.py a operator b")
