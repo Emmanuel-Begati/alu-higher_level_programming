@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-import calculator
+from calculator import add, sub, mul, div
 import sys
 if __name__ == "__main__":
     first_number =int(sys.argv[0])
