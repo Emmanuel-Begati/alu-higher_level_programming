@@ -10,13 +10,13 @@ if __name__ == "__main__":
     elif operator != "+" or "-" or "*" or "/":
         print("Unknown operator. Available operators: +, -, * and /")
     elif operator == "+":
-        print("{} + {} = {}".format(first_number, second_number, add(first_number, second_number)
+        print("{} + {} = {}".format(first_number, second_number, add(first_number, second_number)))
     elif operator == "-":
-        print("{} - {} = {}".format(first_number, second_number, sub(first_number, second_number)
+        print("{} - {} = {}".format(first_number, second_number, sub(first_number, second_number)))
     elif operator == "*":
-        print("{} * {} = {}".format(first_number, second_number, mul(first_number, second_number)
+        print("{} * {} = {}".format(first_number, second_number, mul(first_number, second_number)))
     elif operator == "/":
-        print("{} / {} = {}".format(first_number, second_number, div(first_number, second_number)
+        print("{} / {} = {}".format(first_number, second_number, div(first_number, second_number)))
 
 
     
