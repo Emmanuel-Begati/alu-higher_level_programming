@@ -10,8 +10,6 @@ if __name__ == "__main__":
     operator = str(operator)
     if len(sys.argv) < 4:
         print("Usage: ./100-my_calculator.py a operator b")
-    elif operator != "+" or "-" or "*" or "/":
-        print("Unknown operator. Available operators: +, -, * and /")
     elif operator == "+":
         print("{} + {} = {}".format(first_number, second_number, add(first_number, second_number)))
     elif operator == "-":
@@ -20,6 +18,5 @@ if __name__ == "__main__":
         print("{} * {} = {}".format(first_number, second_number, mul(first_number, second_number)))
     elif operator == "/":
         print("{} / {} = {}".format(first_number, second_number, div(first_number, second_number)))
-
-
-    
+    elif operator != "+" or "-" or "*" or "/":
+        print("Unknown operator. Available operators: +, -, * and /")
