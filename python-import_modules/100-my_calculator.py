@@ -19,4 +19,4 @@ if __name__ == "__main__":
     elif operator == "/":
         print("{} / {} = {}".format(first_number, second_number, div(first_number, second_number)))
     elif operator != "+" or "-" or "*" or "/":
-        print("Unknown operator. Available operators: +, -, * and /")
+        print("Unknown operator. Only: +, -, * and / available")
