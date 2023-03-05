@@ -7,7 +7,7 @@ if __name__ == "__main__":
     operator =str(sys.argv[1])
     if first_number or second_number or operator == False:
         print("Usage: ./100-my_calculator.py a operator b")
-    elif operator != "+", or "-", or "*", or "/":
+    elif operator != "+" or "-" or "*" or "/":
         print("Unknown operator. Available operators: +, -, * and /")
     elif operator == "+":
         print("{} + {} = {}".format(first_number, second_number, add(first_number, second_number)
