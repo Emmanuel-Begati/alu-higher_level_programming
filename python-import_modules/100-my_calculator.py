@@ -11,7 +11,7 @@ if __name__ == "__main__":
     if len(sys.argv) != 4:
         print("Usage: ./100-my_calculator.py a operator b")
         sys.exit(1)
-    elif operator == "+":
+    if operator == "+":
         print("{} + {} = {}".format(first_number, second_number, add(first_number, second_number)))
     elif operator == "-":
         print("{} - {} = {}".format(first_number, second_number, sub(first_number, second_number)))
