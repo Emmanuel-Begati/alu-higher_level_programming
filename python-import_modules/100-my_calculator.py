@@ -2,9 +2,9 @@
 from calculator_1 import add, sub, mul, div
 if __name__ == "__main__":
     import sys
-    first_number =sys.argv[0]
-    second_number = sys.argv[2]
-    operator = sys.argv[1]
+    first_number =sys.argv[1]
+    second_number = sys.argv[3]
+    operator = sys.argv[2]
     first_number = int(float(first_number))
     second_number = int(float(second_number))
     operator = str(operator)
