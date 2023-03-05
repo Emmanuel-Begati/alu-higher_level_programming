@@ -8,7 +8,7 @@ if __name__ == "__main__":
     first_number = int(float(first_number))
     second_number = int(float(second_number))
     operator = str(operator)
-    if first_number or second_number or operator == False:
+    if len(sys.argv) < 4:
         print("Usage: ./100-my_calculator.py a operator b")
     elif operator != "+" or "-" or "*" or "/":
         print("Unknown operator. Available operators: +, -, * and /")
