@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 from calculator_1 import add, sub, mul, div
-import sys.argv
 if __name__ == "__main__":
+    import sys
     first_number =int(sys.argv[0])
     second_number = int(sys.argv[2])
     operator =str(sys.argv[1])
