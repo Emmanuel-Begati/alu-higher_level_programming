@@ -2,9 +2,12 @@
 from calculator_1 import add, sub, mul, div
 if __name__ == "__main__":
     import sys
-    first_number =int(sys.argv[0])
-    second_number = int(sys.argv[2])
-    operator =str(sys.argv[1])
+    first_number =sys.argv[0]
+    second_number = sys.argv[2]
+    operator = sys.argv[1]
+    first_number = int(first_number)
+    second_number = int(second_number)
+    operator = str(operator)
     if first_number or second_number or operator == False:
         print("Usage: ./100-my_calculator.py a operator b")
     elif operator != "+" or "-" or "*" or "/":
