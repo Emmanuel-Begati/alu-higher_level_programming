@@ -1,6 +1,10 @@
 #!/usr/bin/python3
 """Returns list of pascal triangles"""
+
+
 def pascal_triangle(n):
+
+
     """
     Returns a list of lists representing the Pascal's triangle of n.
 
