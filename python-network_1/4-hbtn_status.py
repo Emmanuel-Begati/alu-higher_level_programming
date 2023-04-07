@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""Python URL Script"""
+"""Python script that fetches https://alu-intranet.hbtn.io/status"""
 import requests
-import sys
 
 if __name__ == '__main__':
-    url = sys.argv[1]
-    response = requests.get(url)
-    print("{}".format(response.headers.get("X-Request-Id")))
+    response = requests.get("https://intranet.hbtn.io/status")
+    print("Body response:")
+    print("\t- type: {}".format(type(response.text)))
+    print("\t- content: {}".format(response.text))
