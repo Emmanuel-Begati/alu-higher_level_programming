@@ -133,4 +133,4 @@ class Base:
         for index in range(len(matrix)):
             list_ins.append(cls.create(**matrix[index]))
 
-        return list_ins 
+        return list_ins
